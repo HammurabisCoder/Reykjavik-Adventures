@@ -2,6 +2,25 @@
 
 Test
 
+Tofu: figure out everything. Maybe use reverie or some other template.
+
+
+
+My stomach hurts. The airport air smells vaguely of disinfectant and feels stuffy through my mask. 
+I brought a portable breakfast, but I have no appetite so it's stuffed into my backpack between a travel pillow and a book. 
+The old woman sitting in the row of seats opposite me keeps looking at me, but I suppose I only notice because I keep looking at her. 
+I try to focus on my phone where I'm writing this blog and not on the knot in my stomach. 
+I brought my phone, my charger, my laptop, its charger, my headphones, their charger, and an Iceland travel guide in my carry-on backpack. 
+My electronics are at 100%, and I somehow feel both over charged and completely drained. 
+I brought eight pairs of socks (two wool), seven underwear, seven shirts, three pairs of pants, two beanies, one hoodie, one heavy coat, a pair of gloves, flipflops (for the hot springs), heavy boots, and a pair of tennis shoes.
+The gate speakers crackled on and are asking for volunteers to check their carry-on bags. The old woman has gone. 
+My anxiety has been slowly growing since I bought the tickets a month ago. Or maybe it has been growing over the last lonely year. Or maybe longer. 
+The dreams started two weeks ago. Unfamiliar languages, strange locations, being hunted, hiding. 
+I have three new apps on my phone, reservations at four different hotels, a Ring Road tour booking, and a gap of over a month where I still need to schedule an Airbnb. 
+I'm bringing my toothbrush, toothpaste, deodorant, and a pair of scissors for my beard. I'm bringing a ticket that says boarding group D, owing to my late check-in. 
+I'm bringing a list of things to bring back: a wool sweater, a shirt, and some post stamps for my friend. I'm bringing a tangled ball of anxiety, but I hope to leave that behind. 
+They're boarding now.
+
 You can use the [editor on GitHub](https://github.com/HammurabisCoder/Reykjavik-Adventures/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
