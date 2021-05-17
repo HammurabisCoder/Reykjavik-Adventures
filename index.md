@@ -21,6 +21,9 @@ I'm bringing my toothbrush, toothpaste, deodorant, and a pair of scissors for my
 I'm bringing a list of things to bring back: a wool sweater, a shirt, and some post stamps for my friend. I'm bringing a tangled ball of anxiety, but I hope to leave that behind. 
 They're boarding now.
 
+
+My queasiness has subsided by the time I land in Seattle. Perhaps the constant drone of the engines wore it away, or perhaps the body can only be in that state for so long. As I pass through the food court, the scent of fried food brings my appetite back with a vengeance. One brief Pei Wei orange chicken later I'm exploring the Seattle Tacoma airport. As I often do when I have time to spare, I open Pokémon Go on my phone. It's with some mild shock that I realize I've already visited some of the stops. It was only a couple of years ago but feels like a lifetime. I take a moment to remember the old forests of Olympic National Park. The chill of the air, the fresh dew, walking among ancients older than this country. It is a welcome touch of serenity, and I continue my journey with optimism.
+
 You can use the [editor on GitHub](https://github.com/HammurabisCoder/Reykjavik-Adventures/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
