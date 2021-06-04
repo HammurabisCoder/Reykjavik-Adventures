@@ -5,3 +5,4 @@ Page: https://hammurabiscoder.github.io/Reykjavik-Adventures/
 
 https://dfederm.com/creating-a-blog-using-github-pages/
 https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/
+https://www.tenforums.com/tutorials/164301-how-update-wsl-wsl-2-windows-10-a.html
