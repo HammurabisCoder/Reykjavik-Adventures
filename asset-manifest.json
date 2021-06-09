@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reykjavik-adventures/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/reykjavik-adventures/static/js/main.a8ccb9ba.chunk.js",
+    "main.js.map": "/reykjavik-adventures/static/js/main.a8ccb9ba.chunk.js.map",
+    "runtime-main.js": "/reykjavik-adventures/static/js/runtime-main.b7c200ed.js",
+    "runtime-main.js.map": "/reykjavik-adventures/static/js/runtime-main.b7c200ed.js.map",
+    "static/js/2.0f34ebea.chunk.js": "/reykjavik-adventures/static/js/2.0f34ebea.chunk.js",
+    "static/js/2.0f34ebea.chunk.js.map": "/reykjavik-adventures/static/js/2.0f34ebea.chunk.js.map",
+    "static/js/3.6958b9ae.chunk.js": "/reykjavik-adventures/static/js/3.6958b9ae.chunk.js",
+    "static/js/3.6958b9ae.chunk.js.map": "/reykjavik-adventures/static/js/3.6958b9ae.chunk.js.map",
+    "index.html": "/reykjavik-adventures/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/reykjavik-adventures/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.0f34ebea.chunk.js.LICENSE.txt": "/reykjavik-adventures/static/js/2.0f34ebea.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/reykjavik-adventures/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7c200ed.js",
+    "static/js/2.0f34ebea.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.a8ccb9ba.chunk.js"
+  ]
+}
