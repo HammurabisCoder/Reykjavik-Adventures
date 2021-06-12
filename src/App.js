@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/reykjavik-adventures">
       <div>
         <nav>
           <ul>
