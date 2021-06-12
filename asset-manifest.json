@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/reykjavik-adventures/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/reykjavik-adventures/static/js/main.a8ccb9ba.chunk.js",
-    "main.js.map": "/reykjavik-adventures/static/js/main.a8ccb9ba.chunk.js.map",
-    "runtime-main.js": "/reykjavik-adventures/static/js/runtime-main.b7c200ed.js",
-    "runtime-main.js.map": "/reykjavik-adventures/static/js/runtime-main.b7c200ed.js.map",
-    "static/js/2.0f34ebea.chunk.js": "/reykjavik-adventures/static/js/2.0f34ebea.chunk.js",
-    "static/js/2.0f34ebea.chunk.js.map": "/reykjavik-adventures/static/js/2.0f34ebea.chunk.js.map",
-    "static/js/3.6958b9ae.chunk.js": "/reykjavik-adventures/static/js/3.6958b9ae.chunk.js",
-    "static/js/3.6958b9ae.chunk.js.map": "/reykjavik-adventures/static/js/3.6958b9ae.chunk.js.map",
+    "main.js": "/reykjavik-adventures/static/js/main.14624199.chunk.js",
+    "main.js.map": "/reykjavik-adventures/static/js/main.14624199.chunk.js.map",
+    "runtime-main.js": "/reykjavik-adventures/static/js/runtime-main.7a7f8f92.js",
+    "runtime-main.js.map": "/reykjavik-adventures/static/js/runtime-main.7a7f8f92.js.map",
+    "static/js/2.c89b69fd.chunk.js": "/reykjavik-adventures/static/js/2.c89b69fd.chunk.js",
+    "static/js/2.c89b69fd.chunk.js.map": "/reykjavik-adventures/static/js/2.c89b69fd.chunk.js.map",
+    "static/js/3.2291f6df.chunk.js": "/reykjavik-adventures/static/js/3.2291f6df.chunk.js",
+    "static/js/3.2291f6df.chunk.js.map": "/reykjavik-adventures/static/js/3.2291f6df.chunk.js.map",
     "index.html": "/reykjavik-adventures/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/reykjavik-adventures/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.0f34ebea.chunk.js.LICENSE.txt": "/reykjavik-adventures/static/js/2.0f34ebea.chunk.js.LICENSE.txt",
+    "static/js/2.c89b69fd.chunk.js.LICENSE.txt": "/reykjavik-adventures/static/js/2.c89b69fd.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/reykjavik-adventures/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7c200ed.js",
-    "static/js/2.0f34ebea.chunk.js",
+    "static/js/runtime-main.7a7f8f92.js",
+    "static/js/2.c89b69fd.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.a8ccb9ba.chunk.js"
+    "static/js/main.14624199.chunk.js"
   ]
 }
