@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -8,75 +7,102 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
+import post1 from './posts/blog-post.1.md';
+import post2 from './posts/blog-post.2.md';
+import post3 from './posts/blog-post.3.md';
+// TODOM: Not finding/reading these right.
+/*
+https://github.com/facebook/create-react-app/issues/3025
+Sounds like using import for a .md file is risky?
+*/
+
+const useStyles = makeStyles((theme) => ({
+  mainGrid: {
+    marginTop: theme.spacing(3),
+  },
+}));
+
+const sections = [ // TODOM: Links. Probably won't use. Or maybe replace.
+  { title: 'Technology', url: '#' },
+  { title: 'Design', url: '#' },
+  { title: 'Health', url: '#' },
+  { title: 'Style', url: '#' },
+  { title: 'Travel', url: '#' },
+];
+
+const posts = [post1, post2, post3];
+console.log(`HEY POST IS `, post1); // TODOM: This.
+
+const sidebar = {
+  title: 'About',
+  description:
+    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+  archives: [
+    { title: 'March 2020', url: '#' },
+    { title: 'February 2020', url: '#' },
+    { title: 'May 1999', url: '#' },
+    { title: 'April 1999', url: '#' },
+  ],
+};
 
 function App() {
+  const classes = useStyles();
+
   return (
     <Router basename="/reykjavik-adventures">
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-            <li>
-            <Link to="/topics">Topics</Link>
-          </li>
-          </ul>
-        </nav>
+      <CssBaseline />
+      <Container maxWidth="lg">
+        <Header title='Reykjavik Adventures' sections={sections} />
+        <main>
+          <div>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                <Link to="/topics">Topics</Link>
+              </li>
+              </ul>
+            </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/topics">
-            <Topics />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+            {/* A <Switch> looks through its children <Route>s and
+                renders the first one that matches the current URL. */}
+            <Switch>
+              <Route path="/topics">
+                <Topics />
+              </Route>
+              <Route path="/">
+                <Home />
+              </Route>
+            </Switch>
+          </div>
+          <Grid container spacing={5} className={classes.mainGrid}>
+            <Main title="From the firehose" posts={posts} />
+            <Sidebar
+              title={sidebar.title}
+              description={sidebar.description}
+              archives={sidebar.archives}
+            />
+          </Grid>
+        </main>
+      </Container>
+      {/* TODOM: Little viking dudes running across or something*/}
+      <Footer title='footer' description='Something here to give the footer a purpose!' />
     </Router>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit TEST <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
 function Home() {
   return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }
 
 function Topics() {
