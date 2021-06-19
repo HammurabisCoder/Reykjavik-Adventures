@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/reykjavik-adventures/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/reykjavik-adventures/static/js/main.f599f477.chunk.js",
-    "main.js.map": "/reykjavik-adventures/static/js/main.f599f477.chunk.js.map",
+    "main.css": "/reykjavik-adventures/static/css/main.79a73fc7.chunk.css",
+    "main.js": "/reykjavik-adventures/static/js/main.4e562e73.chunk.js",
+    "main.js.map": "/reykjavik-adventures/static/js/main.4e562e73.chunk.js.map",
     "runtime-main.js": "/reykjavik-adventures/static/js/runtime-main.9e6083e0.js",
     "runtime-main.js.map": "/reykjavik-adventures/static/js/runtime-main.9e6083e0.js.map",
     "static/js/2.aed40589.chunk.js": "/reykjavik-adventures/static/js/2.aed40589.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.58bf91fd.chunk.js": "/reykjavik-adventures/static/js/3.58bf91fd.chunk.js",
     "static/js/3.58bf91fd.chunk.js.map": "/reykjavik-adventures/static/js/3.58bf91fd.chunk.js.map",
     "index.html": "/reykjavik-adventures/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/reykjavik-adventures/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.aed40589.chunk.js.LICENSE.txt": "/reykjavik-adventures/static/js/2.aed40589.chunk.js.LICENSE.txt"
+    "static/css/main.79a73fc7.chunk.css.map": "/reykjavik-adventures/static/css/main.79a73fc7.chunk.css.map",
+    "static/js/2.aed40589.chunk.js.LICENSE.txt": "/reykjavik-adventures/static/js/2.aed40589.chunk.js.LICENSE.txt",
+    "static/media/june-19-laptop.b66e5332.jpg": "/reykjavik-adventures/static/media/june-19-laptop.b66e5332.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9e6083e0.js",
     "static/js/2.aed40589.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.f599f477.chunk.js"
+    "static/css/main.79a73fc7.chunk.css",
+    "static/js/main.4e562e73.chunk.js"
   ]
 }
