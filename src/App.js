@@ -15,9 +15,8 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
-import post1 from './posts/blog-post.1.md';
-import post2 from './posts/blog-post.2.md';
-import post3 from './posts/blog-post.3.md';
+import post1 from './posts/blog-1'; // TODOM: I guess this works.
+import post2 from './posts/blog-2';
 // TODOM: Not finding/reading these right.
 /*
 https://github.com/facebook/create-react-app/issues/3025
@@ -31,25 +30,22 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const sections = [ // TODOM: Links. Probably won't use. Or maybe replace.
-  { title: 'Technology', url: '#' },
-  { title: 'Design', url: '#' },
-  { title: 'Health', url: '#' },
-  { title: 'Style', url: '#' },
-  { title: 'Travel', url: '#' },
+  { title: 'These', url: '#' },
+  { title: 'Links', url: '#' },
+  { title: `Don't`, url: '#' },
+  { title: 'Do', url: '#' },
+  { title: 'Anything', url: '#' },
 ];
 
-const posts = [post1, post2, post3];
-console.log(`HEY POST IS `, post1); // TODOM: This.
+const posts = [post1, post2];
 
 const sidebar = {
   title: 'About',
   description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+    `I haven't put anything in this yet. I guess I'm in Iceland or something though. ¯\\_(ツ)_/¯`,
   archives: [
-    { title: 'March 2020', url: '#' },
-    { title: 'February 2020', url: '#' },
-    { title: 'May 1999', url: '#' },
-    { title: 'April 1999', url: '#' },
+    { title: 'lol', url: '#' },
+    { title: 'nope', url: '#' }
   ],
 };
 
@@ -63,7 +59,7 @@ function App() {
         <Header title='Reykjavik Adventures' sections={sections} />
         <main>
           <div>
-            <nav>
+            {/* <nav>
               <ul>
                 <li>
                   <Link to="/">Home</Link>
@@ -72,21 +68,21 @@ function App() {
                 <Link to="/topics">Topics</Link>
               </li>
               </ul>
-            </nav>
+            </nav> */}
 
             {/* A <Switch> looks through its children <Route>s and
                 renders the first one that matches the current URL. */}
-            <Switch>
+            {/* <Switch>
               <Route path="/topics">
                 <Topics />
               </Route>
               <Route path="/">
                 <Home />
               </Route>
-            </Switch>
+            </Switch> */}
           </div>
           <Grid container spacing={5} className={classes.mainGrid}>
-            <Main title="From the firehose" posts={posts} />
+            <Main title="Reykjavik Adventures" posts={posts} />
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
@@ -96,7 +92,7 @@ function App() {
         </main>
       </Container>
       {/* TODOM: Little viking dudes running across or something*/}
-      <Footer title='footer' description='Something here to give the footer a purpose!' />
+      <Footer title='footer' description='Why do I even have a footer?' />
     </Router>
   );
 }
