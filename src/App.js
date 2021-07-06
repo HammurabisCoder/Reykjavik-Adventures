@@ -15,13 +15,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
-import post1 from './posts/blog-1'; // TODOM: I guess this works.
-import post2 from './posts/blog-2';
-// TODOM: Not finding/reading these right.
-/*
-https://github.com/facebook/create-react-app/issues/3025
-Sounds like using import for a .md file is risky?
-*/
+import posts from './posts';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
@@ -36,8 +30,6 @@ const sections = [ // TODOM: Links. Probably won't use. Or maybe replace.
   { title: 'Do', url: '#' },
   { title: 'Anything', url: '#' },
 ];
-
-const posts = [post1, post2];
 
 const sidebar = {
   title: 'About',
