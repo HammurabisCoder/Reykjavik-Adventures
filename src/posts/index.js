@@ -3,7 +3,8 @@ import june20 from './june20';
 
 export default [june20, june19];
 
-/* TODOM: More notes.
+/* TODOM: More notes. Take out line breaks before posting.
+
 July 4th - At my mom's suggestion, I have a hot dog for lunch. It seemed like a pretty American thing to do. Walked 
 out to the solar sailer at midnight to sit and watch the ocean. I expected a moment of quiet solitude but there were a
 couple of fishermen on the rocks down by the ocean, and a photographer shooting the sculpture from different angles. It probably
@@ -21,5 +22,7 @@ feel somewhat like a trespasser here. So I'm somewhat anxious about running into
 of course most anxiety usually is. Also, there's no dryer, just some clothes lines strewn up around the cramped cellar. I think
 I'll try to bring them into the apartment and drape them strategically around the place instead.
 
+
+July 11 - Trying a new cafe, Kaffibrennslan. Although I didn't experience it this time, they have a nice outdoor seating area, plus waffles. I'll have to come back sometime to take advantage of that. I've been slowly waking up later and later. Slowly, being here has begun to feel less like living in a fantasy land, and more like just living. Went to the hotdog stand for lunch, but for the first time there was a long line, so I went to one of the fast food stands at (??? Square) a couple blocks away and got a hotdog there. G w/ Teal hir, nrvsly wching wndw + awk hug, (bld dte?) gy w/ pnk shrt. FR fam st nxt 2 me, typng code mke hrdr reed, + knda fun.
 
 */

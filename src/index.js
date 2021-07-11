@@ -17,7 +17,7 @@ ReactDOM.render(
 
 // TODOM: Photos?
 
-// TODOM: Page title, favicon, logo
+// TODOM: Page title, logo
 
 // TODOM: Do I want react helmet? What does it do?
 
